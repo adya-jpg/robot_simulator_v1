@@ -6,13 +6,14 @@ public class robot_v1 {
     //simple 5x5 grid.
     static int grid_size = 5;
     
-   //loop, taking user input for movement commands. 
+   //loop, taking user input for movement commands.
     public static void main(String[] args) {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
+
         //loop, taking user input for movement commands.
         while (true) {
             System.out.print("enter command (up/down/left/right/quit): ");
-            String command = scanner.nextLine().toLowerCase();
+            String command = scanner.nextLine();
 
             if (command.equals("quit")) {
                 break;

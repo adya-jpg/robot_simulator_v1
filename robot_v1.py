@@ -6,7 +6,7 @@ grid_size = 5
 
 # loop, taking user input for movement commands.
 while True:
-    command = input("enter command (up/down/left/right/quit): ").lower()
+    command = input("enter command (up/down/left/right/quit): ")()
     
     if command == "quit":
         break
